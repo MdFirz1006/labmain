@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+    background-color:#063629;
+
+    background-size:  100%;
+   
+  }
+  body.head{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+    
+  }
+  .head{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .head h2{
+    color:lightcoral;
+   font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .head p{
+    font-style: normal;
+    font-size: 20px;
+
+  }
+  form{
+    position:sticky;
+    
+  }
+
+     
+
+  /* Style the search field */
+  form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 10px;
+  margin-left: 30%;
+  margin-right: auto;
+  width: 40%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.search button {
+    width: 60px;
+    height: 42px;
+    padding: 10px;
+    
+  
+    background: white;
+   
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 10px;
+  
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.search button:hover {
+    background: #a2acb4;
+  }
+  
+  /* Clear floats */
+  form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Lab */
+
+.container{
+   width: 40%;
+   margin: 0 auto;
+   text-align: center;
+    display: flex;
+}
+.container div{
+    width: 500px;
+    height: 200px;
+    display:inline;
+    color:lightcoral;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: #247c64;
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 5px 4px 3px 5px #e4edec;
+    
+
+}
+.container h2{
+  color: aliceblue;
+}
+.main{
+  border-bottom: 3px solid lightcoral ;
+}
+
+.container li{
+  color: white;
+  text-align-last: left;
+  text-align: center;
+}
+.container div a{
+   text-decoration: none;
+  color: lightcoral;
+}
